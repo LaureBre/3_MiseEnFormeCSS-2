@@ -4,7 +4,7 @@
     background-color: rgb(255, 115, 0);
     background-color: rgba(255, 115, 0, 0.8);
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     font-size: 240%;
 }
 
@@ -22,7 +22,6 @@
   content: " }";
   color: orange;
 }
-
 
 #Langages, #Annexe, #Qualites {
     width: 33%;

@@ -19,17 +19,31 @@ h2 {
     letter-spacing: 2;
 }
 
-li.li_1 {
-    list-style: '|';
+.li_1::before {
+    color: orange;
+    padding: 10px;
+    content: '|';
+}
+
+.li_2::before {
+    color: green;
+    margin-left: 20px;
+    padding: 10px;
+    content: '\\';
+}
+
+.li_3::before {
+    color: blue;
+    margin-left: 40px;
+    padding: 10px;
+    content: '//';
+}
+
+li {
     font-size: .9em;
 }
 
-li.li_2 {
-    list-style-type: circle;
-    font-size: .9em;
-}
-
-ul.ssPuce {
+ul {
     list-style: none;
     padding-left:0;
 }
