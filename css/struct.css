@@ -1,0 +1,37 @@
+* { border: 1px solid rgba(0, 0, 0, 0.3); }
+
+header, footer {
+  position: fixed;
+  background-color: #fff;
+  left: 0px;
+  width: 100%;
+}
+
+header {
+    z-index: 3;
+    top:0;
+    margin-top:0;
+    text-align:center;
+}
+
+footer {
+    z-index: 2;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    bottom: 0;
+}
+
+main {
+    z-index: 1;
+    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    background-color: #fff;
+    bottom: 120 px;
+    width: 100%;
+}
+
+aside {
+    float: left;
+}

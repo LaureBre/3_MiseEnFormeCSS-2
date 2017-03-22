@@ -1,0 +1,14 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5vw;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 800;
+  color: darkorange;
+}
+
+ul {
+  list-style: none;
+}
