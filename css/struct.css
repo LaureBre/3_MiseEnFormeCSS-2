@@ -1,4 +1,4 @@
-* { border: 1px solid rgba(0, 0, 0, 0.3); }
+* { border: 0px solid rgba(0, 0, 0, 0.1); }
 
 header, footer {
   position: fixed;
@@ -26,12 +26,13 @@ main {
     z-index: 1;
     position: absolute;
     margin-top: 50px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     background-color: #fff;
-    bottom: 120 px;
     width: 100%;
 }
 
-aside {
-    float: left;
+div {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
 }

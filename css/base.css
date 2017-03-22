@@ -4,11 +4,36 @@
 }
 
 a {
-  text-decoration: none;
-  font-weight: 800;
-  color: darkorange;
+    text-decoration: none;
+    font-weight: 800;
+    color: darkorange;
 }
 
-ul {
-  list-style: none;
+h1 {
+    font-size: 180%;
+    letter-spacing: 2;
+}
+
+h2 {
+    font-size: 150%;
+    letter-spacing: 2;
+}
+
+li.li_1 {
+    list-style: '|';
+    font-size: .9em;
+}
+
+li.li_2 {
+    list-style-type: circle;
+    font-size: .9em;
+}
+
+ul.ssPuce {
+    list-style: none;
+    padding-left:0;
+}
+
+li {
+    text-align: left;
 }

@@ -1,22 +1,52 @@
 .header h1 {
-  font-family: 'Nixie One', cursive;
-  font-variant: small-caps;
-  background-color: rgb(255, 115, 0);
-  background-color: rgba(255, 115, 0, 0.8);
-  margin-top: 0;
+    font-family: 'Nixie One', cursive;
+    font-variant: small-caps;
+    background-color: rgb(255, 115, 0);
+    background-color: rgba(255, 115, 0, 0.8);
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 240%;
 }
 
-.competences h2 {
-  margin-top: 0;
-  text-align: center;
+#competences h2 {
+    margin-top: 0;
+    text-align: center;
 }
+
+#competences li::before {
+  content: "{ ";
+  color: orange;
+}
+
+#competences li::after {
+  content: " }";
+  color: orange;
+}
+
 
 #Langages, #Annexe, #Qualites {
-  width: 33%;
-	text-align: center;
-  float: left;
+    width: 33%;
+    float: left;
 }
 
-#Langages, #Annexe, #Qualites li {
-  list-style-type: symbols({});
+#Annexe li {
+    text-align: left;
+}
+
+#Langages li {
+    text-align: center;
+}
+
+#Qualites li {
+    text-align: right;
+}
+
+#footer p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#footer {
+  background-color: #fff;
+  background-color: vls(255, 115, 0);
 }
