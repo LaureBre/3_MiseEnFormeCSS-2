@@ -8,17 +8,17 @@
     font-size: 240%;
 }
 
-#competences h2 {
+#Competences h2 {
     margin-top: 0;
     text-align: center;
 }
 
-#competences li::before {
+#Competences li::before {
   content: "{ ";
   color: orange;
 }
 
-#competences li::after {
+#Competences li::after {
   content: " }";
   color: orange;
 }
