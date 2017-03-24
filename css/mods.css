@@ -46,6 +46,23 @@
 }
 
 #footer {
-  background-color: #fff;
-  background-color: vls(255, 115, 0);
+  background-color: #604F40;
+  background-color: hsl(25, 10%, 30%);
+}
+
+#Experiences h1, #formations h1 {
+  text-align: center;
+}
+
+#Experiences h2, #formations h2 {
+  color: rgb(255, 115, 0);
+}
+
+#Experiences h3, #formations h3 {
+  color: rgb(150, 61, 0);
+}
+
+#Experiences h4, #formations h4 {
+  /* color: rgb(193, 78, 0); */
+  padding: 0;
 }
