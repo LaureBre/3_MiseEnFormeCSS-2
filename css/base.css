@@ -1,5 +1,6 @@
 * {
     font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;  /* pour les navigateurs ne connaissant pas le viewport width */
     font-size: 2.5vw;
 }
 
@@ -78,6 +79,7 @@ h4 {
 
 li {
     font-size: .9em;
+    text-align: left;
 }
 
 ul {
@@ -85,6 +87,6 @@ ul {
     padding-left:0;
 }
 
-li {
-    text-align: left;
+.date {
+    color: #604F40;
 }

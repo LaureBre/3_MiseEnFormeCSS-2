@@ -7,6 +7,7 @@
 
 body {
     width: 100%;
+  margin: 0 auto;
 }
 
 header, footer {
@@ -14,6 +15,13 @@ header, footer {
   background-color: #fff;
   left: 0px;
   width: 100%;
+/*  max-width: 800px;
+  margin: 0 auto;  */
+    /* ok ça fonctionne pour la taille d'affichage max
+    mais les caractères s'adaptent toujours au viewport
+    donc à la largeur de la fenêtre et non du contenu */
+    /* Au final on n'arrivera au résultat souhaité
+    qu'avec JavaScript */
 }
 
 header {
@@ -38,6 +46,7 @@ main {
     margin-bottom: 3em;
     background-color: #fff;
     width: 100%;
+/*     max-width: 800px;  */
 }
 
 div {
