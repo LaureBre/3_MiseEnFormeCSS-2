@@ -1,4 +1,13 @@
-* { border: 0px solid rgba(0, 0, 0, 0.1); }
+/* { border: 1px solid rgba(0, 0, 0, 0.1); } */
+
+#contenu {
+      margin: 0 auto;
+      max-width: 400px;
+}
+
+body {
+    width: 100%;
+}
 
 header, footer {
   position: fixed;
@@ -25,8 +34,8 @@ footer {
 main {
     z-index: 1;
     position: absolute;
-    margin-top: 90px;
-    margin-bottom: 50px;
+    margin-top: 5em;
+    margin-bottom: 3em;
     background-color: #fff;
     width: 100%;
 }
