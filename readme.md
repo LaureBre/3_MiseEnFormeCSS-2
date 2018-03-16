@@ -1,3 +1,6 @@
+Contexte : formation Codeurs Web 18, Bourges 2017
+
+
 # Consignes :
 * Faire un repository "Semaine3" et updater votre CV fait en HTML avec du CSS
 
